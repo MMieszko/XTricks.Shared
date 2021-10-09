@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTricks.Shared", "XTricks.Shared\XTricks.Shared.csproj", "{94B7D72B-324B-4B38-9603-97EE9C3BCBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTricks.Shared.Tests", "XTricks.Shared.Tests\XTricks.Shared.Tests.csproj", "{D84C9D25-78D3-475E-A945-5F2944339606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B7D72B-324B-4B38-9603-97EE9C3BCBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B7D72B-324B-4B38-9603-97EE9C3BCBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B7D72B-324B-4B38-9603-97EE9C3BCBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B7D72B-324B-4B38-9603-97EE9C3BCBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84C9D25-78D3-475E-A945-5F2944339606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84C9D25-78D3-475E-A945-5F2944339606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84C9D25-78D3-475E-A945-5F2944339606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84C9D25-78D3-475E-A945-5F2944339606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51A00E1B-344E-4639-84D8-5A2BD00B9631}
+	EndGlobalSection
+EndGlobal
