@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XTricks.Shared</id>
+    <version>1.0.0</version>
+    <authors>Mieszko Misztal</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/MMieszko/XTricks.Shared</projectUrl>
+    <description>XTricks shared code</description>
+    <releaseNotes>Shared code for geofencing</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>xamarin xamarin.forms android</tags>
+  </metadata>
+</package>
