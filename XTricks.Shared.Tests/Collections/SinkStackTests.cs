@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 using System;
+using System.Linq;
 using XTricks.Shared.Collections;
 
 namespace XTricks.Shared.Tests.Collections
@@ -79,6 +80,16 @@ namespace XTricks.Shared.Tests.Collections
             stack.Pop();
             stack.Pop();
             stack.Peek().Id.Should().Be(1);
+        }
+
+        [Test]
+        public void ToList()
+        {
+            var items = new SinkStack<object>(20);
+
+            items.Push(new object());
+
+            var list = items.ToList();
         }
 
         private class TestObject
